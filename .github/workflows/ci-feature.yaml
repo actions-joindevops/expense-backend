@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-  workflow_call:
+  workflow_dispatch:
 jobs:
   common:
     uses: actions-joindevops/github-reusable-workflows/.github/workflows/ci.yaml@main
