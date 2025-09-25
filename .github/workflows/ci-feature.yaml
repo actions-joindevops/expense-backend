@@ -1,0 +1,13 @@
+name: CI - Dev BRanch
+on:
+  push:
+    branches:
+      - main
+jobs:
+  common:
+    uses: actions-joindevops/github-reusable-workflows/.github/workflows/ci.yaml@main
+    with:
+      component_name: backend
+      app_type: nodejs
+
+
