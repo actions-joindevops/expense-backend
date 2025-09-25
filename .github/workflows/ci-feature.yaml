@@ -8,6 +8,7 @@ jobs:
     uses: actions-joindevops/github-reusable-workflows/.github/workflows/ci.yaml@main
     with:
       component_name: backend
+      project_name: expense
       app_type: nodejs
 
 
